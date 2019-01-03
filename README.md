@@ -28,12 +28,10 @@ Otherwise you can open the command palette and choose "*ESLint: Fix all auto-fix
 ## Usage
 
 ### App development
-You can build your app or start a dev server for development.
+You can build your app or start a dev server for app development. Code should be written in the *app/* directory with *index.js* as the entry point.
 
 - `npm run build` - builds your app and outputs to *dist/*
 - `npm run webpack-dev-server` - builds and serves your app on *http://localhost:9000*
-
-React code should be built in the *app/* directory with *index.js* as the entry point.
 
 ### Custom rules
 
