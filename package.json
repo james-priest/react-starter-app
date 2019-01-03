@@ -1,0 +1,26 @@
+{
+  "name": "react-starter-app",
+  "version": "0.1.0",
+  "description": "This is a simple starter project for React. It provides a build/dev environment and incorporates ESLint, Airbnb, & Prettier for code quality, style, and formatting.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "install-airbnb": "npx install-peerdeps --dev eslint-config-airbnb",
+    "install-prettier": "npm i -D prettier eslint-config-prettier eslint-plugin-prettier",
+    "install-react": "npm i --save react react-dom",
+    "install-dev-env": "npm i -D @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli webpack-dev-server babel-loader css-loader style-loader html-webpack-plugin",
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-priest/react-starter-app.git"
+  },
+  "keywords": ["React", "Webpack", "ESLint", "Airbnb", "Prettier"],
+  "author": "James Priest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-priest/react-starter-app/issues"
+  },
+  "homepage": "https://github.com/james-priest/react-starter-app#readme"
+}
