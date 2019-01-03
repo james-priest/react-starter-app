@@ -1,4 +1,4 @@
-# React start app
+# React starter app
 
 This is a simple starter project for React. It provides a build/dev environment and incorporates ESLint, Airbnb, & Prettier for code quality, style, and formatting.
 
@@ -11,7 +11,7 @@ I've created a set of npm scripts to install each section. Run these from termin
 3. `npm run install-react` - installs React and ReactDOM packages
 4. `npm run install-dev-env` - installs Babel, Webpack, and loaders
 
-<!-- ## Configuration -->
+### Configuration
 
 If you're using VSCode you'll need to install the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
 
