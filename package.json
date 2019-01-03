@@ -2,7 +2,13 @@
   "name": "react-starter-app",
   "version": "0.1.0",
   "description": "This is a simple starter project for React. It provides a build/dev environment and incorporates ESLint, Airbnb, & Prettier for code quality, style, and formatting.",
-  "main": ".eslintrc.js",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "scripts": {
     "install-airbnb": "npx install-peerdeps --dev eslint-config-airbnb",
     "install-prettier": "npm i -D prettier eslint-config-prettier eslint-plugin-prettier",
